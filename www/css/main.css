@@ -12,6 +12,7 @@ a img, :link img, :visited img {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  
 }
 ol, ul {
   list-style: string;
