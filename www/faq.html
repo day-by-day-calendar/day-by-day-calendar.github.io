@@ -84,7 +84,7 @@
 				<li><a href="#no_event_sync">Why can’t I sync event to several devices?</a></li>
 				<li><a href="#double_bdays">Why some contacts have double birthdays?</a></li>
 				<li><a href="#free_paid_dif">What is the difference between free and paid versions?</a></li>
-				<li><a href="#sync_problem">The app doesn't sync properly - appointments entered via Google calendar don't appear.</a></li>
+				<li><a href="#sync_problem">The app doesn't sync properly.</a></li>
 				<li><a href="#no_reminder">Reminder doesn’t go off.</a></li>
 				<li><a href="#recurrent_tasks_disappear">I currently have multiple recurring tasks set up but when I check one off, the task for the following week completely disappears in day by day instead of becoming unlocked in day by day and appearing in Google calendar.</a></li>
 				<li><a href="#no_paid_version">I purchased the paid version but the pro features are still limited. How come?</a></li>
@@ -95,7 +95,7 @@
 				<li><a href="#change_widget_size">Cannot change the widget size.</a></li>
 				<li><a href="#get_rid_of_default_notifications">How do I get rid of default notifications?</a></li>
 				<li><a href="#cannot_change_calendar">Why can’t I change calendar while editing an event?</a></li>
-				<li><a href="#tasks_sync">Why don't tasks sync?</a></li>
+				<li><a href="#tasks_sync_one_way">Why do tasks sync one-way?</a></li>
 				<li><a href="#tasker">How to integrate Tasker in Day by Day app?</a></li>	
 		
 			</ul>
@@ -292,13 +292,26 @@
 										<p>One more advantage – there are no ads in paid version.</p>
 										
 										
-								<h3><a id="sync_problem"></a>The app doesn't sync properly - appointments entered via Google calendar don't appear. </h3>
+								<h3><a id="sync_problem"></a>The app doesn't sync properly.</h3>
 
-										<p>Make sure that the event's calendar is selected for viewing in the app settings, 
-										if it is selected, check the event in the default Calendar app. 
-										If the event doesn't appear in the default calendar, the problem is in sync between Google service and the device calendar storage. 
-										Go to device settings, “Accounts”, choose Google account, your personal account, 
-										make sure there is a checkbox marked next to the option “Calendar”.</p>
+										<p>Check access to internet.</p>
+
+<p>First of all please check the settings in your device (your Google account). There must be two options checked for sync - Calendar and Day by Day. Make sure the account is turned on as active in the left menu of Day by Day app.</p>
+
+<p>Secondly, open left sliding menu in Day by Day settings -> section Active calendar -> make sure the calendars you need are checked for visibility.</p>
+
+<p>Tasks section - the account must be selected.</p>
+
+<p>Check the right  sliding menu as well - there are calendars and task list to turn on.
+Here you can read more about the right sliding menu and profiles.</p>
+
+<p>If you press on pencil icon in front of calendars in the right sliding menu, you can check sync of calendars over there too. Do the same with the section Task lists in the right menu.</p>
+
+
+<p>In case that doesn't solve the problem, open default calendar app in your device and check if the calendar is checked for visibility over there. Sometimes (on some devices) default calendar do have influence, try to check them on/off and see if that has any difference on sync in Day by Day app as well.</p>
+
+
+
 										
 										
 								
@@ -403,20 +416,12 @@ So if you mark one task (in the sequence of tasks) as completed in web interface
 								<p>Standard calendar doesn’t have such an option, so there will be no synchronization of such an event. If Android makes up this feature, we’ll make it possible as well.</p>
 								
 
-								<h3><a id="tasks_sync"></a>Why don’t tasks sync?</h3>
-								<ul>
-									<li>Synchronization occurs several minutes after you change the task.</li>
-									<li>No internet access.</li>
-									<li>Tasks account is not chosen in the settings.</li>
-									<li>Auto sync is turned off in the settings.</li>
-									<li>Sync occurs repeatedly in background mode, when user opens the app, uses the Sync  option in the left sliding menu. I.e. if some data has been changed on server or the other device, the new data needs some time to show up on your current device.</li>
-											
-								</ul>
+								
 
-								<p>Why do tasks sync one-way?</p>
-								<ul>
-									<li>Most probably the time zone of the device is set incorrectly. It’s necessary to check time and time zone.</li>	
-								</ul>
+								<h3><a id="tasks_sync_one_way"></a>Why do tasks sync one-way?</h3>
+								
+									<p>Most probably the time zone of the device is set incorrectly. It’s necessary to check time and time zone.</p>	
+								
 
 
 
