@@ -1,230 +1,240 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Appiens.com - DayByDay</title>
-<link href="css/main.css" rel="stylesheet" type="text/css" />
-<link href="css/sweet.css" rel="stylesheet" type="text/css"  />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>DayByDay</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/sweet.css" rel="stylesheet" type="text/css" />
 
-<script src="js/init.js"> </script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="js/init.js"> </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter19790128 = new Ya.Metrika({id:19790128,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true});
-        } catch(e) { }
-    });
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+                try {
+                    w.yaCounter19790128 = new Ya.Metrika({
+                        id: 19790128,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true
+                    });
+                } catch (e) { }
+            });
 
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/19790128" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div><img src="//mc.yandex.ru/watch/19790128" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"></link>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </link>
 
 </head>
 
-    <body onload="setVisibleByWidth()">
-<div id="wrapper">
-    <div id="header">
-        <div id="header_text">
-            <img src="images/bg_header.png" style="float: left;"/>
-            <div id="slogan">
-                <h2>Build your future with <span>DayByDay</span>!</h2>    
-            </div>
-            <div id="menu">
-                <div id="lang_panel">
-                    <span id="select_ru" onclick="setLanguage('rus',getNameCurrPage())">на русском</span> 
+<body onload="setVisibleByWidth()">
+    <div id="wrapper">
+        <div id="header">
+            <div id="header_text">
+                <img src="images/bg_header.png" style="float: left;" />
+                <div id="slogan">
+                    <h2>Build your future with <span>DayByDay</span>!</h2>
                 </div>
-                <div class="navigation">
-                    <span><a  href="index.html">Home</a></span>
-					<span>News</span>
-					<span><a href="faq.html">FAQ</a></span>
-					<span><a  href="license.html">End User License</a></span>
+                <div id="menu">
+                    <div id="lang_panel">
+                        <span id="select_ru" onclick="setLanguage('rus',getNameCurrPage())">на русском</span>
+                    </div>
+                    <div class="navigation">
+                        <span><a href="index.html">Home</a></span>
+                        <span>News</span>
+                        <span><a href="faq.html">FAQ</a></span>
+                        <span><a href="license.html">End User License</a></span>
+                    </div>
                 </div>
-            </div>    
-        </div> 
-    </div>
-    
-    <div id="content">
-	<div id="col_left">
-            <div id="welcome">
-            <h2>News</h2>
-
-				<h3>09-jul-2013</h3>
-                <p>Version 1.041.3:</p>
-                <ul>
-					<li>You can define your task's priority now (full version only).</li>
-					<li>More capabilities of recurrent tasks and events.</li>
-					<li>"Whole day" text is removed from the widget.</li>
-					<li>New languages are added: Arabic, Korean, Romanian.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>21-jun-2013</h3>
-                <p>Version 1.039.0:</p>
-                <ul>
-					<li>Hotfix for tablets with Android 4.0.3 and later versions.</li>
-                </ul>
-
-				
-				<h3>20-jun-2013</h3>
-                <p>Version 1.038.0:</p>
-                <ul>
-					<li>Localization is fixed.</li>
-					<li>Bug fixes for Android 3.x.</li>
-					<li>Other bug fixes.</li>
-                </ul>
-
-				
-				<h3>24-may-2013</h3>
-                <p>Version 1.034.0:</p>
-                <ul>
-					<li>Increased performance.</li>
-					<li>Bug fixes.</li>
-					<li>New languages are added: Hungarian, Portuguese, Slovak.</li>
-                </ul>
-
-				
-				<h3>08-may-2013</h3>
-                <p>Version 1.032.0:</p>
-                <ul>
-					<li>Better UI.</li>
-					<li>Bug fixes.</li>
-					<li>New languages are added: Croatian, Czech, Danish, Dutch, French, German, Japanese, Polish, Spanish.</li>
-                </ul>
-
-				
-				<h3>17-apr-2013</h3>
-                <p>Version 1.031.0:</p>
-                <ul>
-					<li>Events and tasks delete confirmations in view mode.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>08-apr-2013</h3>
-                <p>Version 1.029.0:</p>
-                <ul>
-					<li>Turkish localization is fixed.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>04-apr-2013</h3>
-                <p>Version 1.028.0:</p>
-                <ul>
-					<li>The Turkish localization is added.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>28-mar-2013</h3>
-                <p>Version 1.026.0:</p>
-                <ul>
-					<li>Events: click on a location field opens a map.</li>
-					<li>The Italian localization is added.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>14-mar-2013</h3>
-                <p>Version 1.025.2:</p>
-                <ul>
-					<li>Enhanced interaction with the Widget.</li>
-					<li>Added the Ukrainian localization.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>07-mar-2013</h3>
-                <p>Version 1.024.0:</p>
-                <ul>
-					<li>Bug fixes.</li>
-					<li>The ability to offer a translation application to your language.</li>
-                </ul>
-
-				
-				<h3>06-mar-2013</h3>
-                <p>Version 1.023.1:</p>
-                <ul>
-					<li>Requrrence tasks (limited in free version).</li>
-					<li>New option: First day of week.</li>
-					<li>Application user interface improvement.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-				<h3>20-feb-2013</h3>
-                <p>Version 1.022.0:</p>
-				<p>We've finished beta-testing! Thank you very much for your assistance and comments. Now we are glad to introduce two releases: one is free with ad banner, the other is paid version without ad.</p>
-				<p>Changes:</p>
-                <ul>
-					<li>Birthday notifications added.</li>
-					<li>Ad in free release.</li>
-					<li>Paid release without ad.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-
-				<h3>6-feb-2013</h3>
-                <p>Version 1.019.3:</p>
-                <ul>
-					<li>Fix bug. Dissapearing completed tasks from app widget.</li>
-					<li>Increased performance.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-                <h3>31-jan-2013</h3>
-                <p>Version 1.017.0:</p>
-                <ul>
-					<li>Events: "location" field added.</li>
-					<li>Widget and application user interface improvement.</li>
-					<li>New theme.</li>
-					<li>Bug fixes.</li>
-                </ul>
-
-				
-                <h3>23-jan-2013</h3>
-                <p>Version 1.015.1. Changes:</p>
-                <ul>
-                    <li>Calendar view.</li>
-                    <li>Tablet adaptation.</li>
-                    <li>New lockscreen widget for Android 4.2 Jelly Bean.</li>
-                    <li>Widget and application user interface improvement.</li>
-                    <li>Setting snooze delay.</li>
-                    <li>Select font size.</li>
-                    <li>Bug fixes.</li>
-                </ul>    
             </div>
-	</div>
+        </div>
 
-        <div style="clear:both"></div>
-           
-    </div>   
-    <div id="footer">
-        <p id="contact"><a href="mailto:info@appiens.com">info@appiens.com</a></p>
+        <div id="content">
+            <div id="col_left">
+                <div id="welcome">
+                    <h2>News</h2>
+
+                    <h3>09-jul-2013</h3>
+                    <p>Version 1.041.3:</p>
+                    <ul>
+                        <li>You can define your task's priority now (full version only).</li>
+                        <li>More capabilities of recurrent tasks and events.</li>
+                        <li>"Whole day" text is removed from the widget.</li>
+                        <li>New languages are added: Arabic, Korean, Romanian.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>21-jun-2013</h3>
+                    <p>Version 1.039.0:</p>
+                    <ul>
+                        <li>Hotfix for tablets with Android 4.0.3 and later versions.</li>
+                    </ul>
+
+
+                    <h3>20-jun-2013</h3>
+                    <p>Version 1.038.0:</p>
+                    <ul>
+                        <li>Localization is fixed.</li>
+                        <li>Bug fixes for Android 3.x.</li>
+                        <li>Other bug fixes.</li>
+                    </ul>
+
+
+                    <h3>24-may-2013</h3>
+                    <p>Version 1.034.0:</p>
+                    <ul>
+                        <li>Increased performance.</li>
+                        <li>Bug fixes.</li>
+                        <li>New languages are added: Hungarian, Portuguese, Slovak.</li>
+                    </ul>
+
+
+                    <h3>08-may-2013</h3>
+                    <p>Version 1.032.0:</p>
+                    <ul>
+                        <li>Better UI.</li>
+                        <li>Bug fixes.</li>
+                        <li>New languages are added: Croatian, Czech, Danish, Dutch, French, German, Japanese, Polish,
+                            Spanish.</li>
+                    </ul>
+
+
+                    <h3>17-apr-2013</h3>
+                    <p>Version 1.031.0:</p>
+                    <ul>
+                        <li>Events and tasks delete confirmations in view mode.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>08-apr-2013</h3>
+                    <p>Version 1.029.0:</p>
+                    <ul>
+                        <li>Turkish localization is fixed.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>04-apr-2013</h3>
+                    <p>Version 1.028.0:</p>
+                    <ul>
+                        <li>The Turkish localization is added.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>28-mar-2013</h3>
+                    <p>Version 1.026.0:</p>
+                    <ul>
+                        <li>Events: click on a location field opens a map.</li>
+                        <li>The Italian localization is added.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>14-mar-2013</h3>
+                    <p>Version 1.025.2:</p>
+                    <ul>
+                        <li>Enhanced interaction with the Widget.</li>
+                        <li>Added the Ukrainian localization.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>07-mar-2013</h3>
+                    <p>Version 1.024.0:</p>
+                    <ul>
+                        <li>Bug fixes.</li>
+                        <li>The ability to offer a translation application to your language.</li>
+                    </ul>
+
+
+                    <h3>06-mar-2013</h3>
+                    <p>Version 1.023.1:</p>
+                    <ul>
+                        <li>Requrrence tasks (limited in free version).</li>
+                        <li>New option: First day of week.</li>
+                        <li>Application user interface improvement.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>20-feb-2013</h3>
+                    <p>Version 1.022.0:</p>
+                    <p>We've finished beta-testing! Thank you very much for your assistance and comments. Now we are
+                        glad to introduce two releases: one is free with ad banner, the other is paid version without
+                        ad.</p>
+                    <p>Changes:</p>
+                    <ul>
+                        <li>Birthday notifications added.</li>
+                        <li>Ad in free release.</li>
+                        <li>Paid release without ad.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>6-feb-2013</h3>
+                    <p>Version 1.019.3:</p>
+                    <ul>
+                        <li>Fix bug. Dissapearing completed tasks from app widget.</li>
+                        <li>Increased performance.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>31-jan-2013</h3>
+                    <p>Version 1.017.0:</p>
+                    <ul>
+                        <li>Events: "location" field added.</li>
+                        <li>Widget and application user interface improvement.</li>
+                        <li>New theme.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+
+
+                    <h3>23-jan-2013</h3>
+                    <p>Version 1.015.1. Changes:</p>
+                    <ul>
+                        <li>Calendar view.</li>
+                        <li>Tablet adaptation.</li>
+                        <li>New lockscreen widget for Android 4.2 Jelly Bean.</li>
+                        <li>Widget and application user interface improvement.</li>
+                        <li>Setting snooze delay.</li>
+                        <li>Select font size.</li>
+                        <li>Bug fixes.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="clear:both"></div>
+
+        </div>
+        <div id="footer">
+            <p id="contact"><a href="mailto:daybyday.feedback@gmail.com">daybyday.feedback@gmail.com</a></p>
+        </div>
     </div>
-</div>
-<!-- The JavaScript for gallery -->
-                <script src="js/sweet.js"></script>
+    <!-- The JavaScript for gallery -->
+    <script src="js/sweet.js"></script>
 </body>
+
 </html>
