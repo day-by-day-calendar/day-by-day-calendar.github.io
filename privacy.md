@@ -25,8 +25,8 @@ We may collect, store and use non-personal information. We may also combine pers
 
 # Use of other services
 
-Day by Day app uses Google Tasks API to sync with Google Tasks. You can find their privacy policy [here](https://policies.google.com/privacy).
+Day by Day app uses Google Tasks API to sync with Google Tasks. You can find their privacy policy <a href="https://policies.google.com/privacy" target="_blank">here</a>.
 
-Firebase is used for collecting the app's crashes. Their privacy policy is [here](https://www.firebase.com/terms/privacy-policy.html).
+Firebase is used for collecting the app's crashes. Their privacy policy is <a href="https://www.firebase.com/terms/privacy-policy.html" target="_blank">here</a>.
 
 Our Privacy Policy may be altered in time. Should the policy change, we will post the information on this page.

@@ -25,7 +25,7 @@ Day by Day app has lots to offer:
 * text month widget, week widget;
 * ability to use different calendar profiles in widgets and the app;
 * invitations for calendar events and check of guest list;
-* [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) app is supported for better business management. E.g. you can have a task reminder to go off when you come to work;
+* <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm" target="_blank">Tasker</a> app is supported for better business management. E.g. you can have a task reminder to go off when you come to work;
 * subtasks or todo lists in your events and tasks to write down business ideas or daily routine;
 * rich set of options for recurrent tasks;
 * priority in tasks to differentiate between more and less important business or routine tasks;
@@ -35,8 +35,10 @@ Day by Day allows you to create the events with fixed start/end time, as well as
 
 This time management app is so simple that no further explanation is actually needed, just download and enjoy!
 
-[![Google Play](./assets/google-play-badge.png){:width="30%"}](https://play.google.com/store/apps/details?id=ru.infteh.organizer.trial)
+<a href="https://play.google.com/store/apps/details?id=ru.infteh.organizer.trial" target="_blank">
+  <img src="./assets/google-play-badge.png" alt="Google Play" height="100em">
+</a>
 
-If you come upon any questions about the app, please read our [Wiki](https://github.com/day-by-day-calendar/feedback/wiki).
+If you come upon any questions about the app, please read our <a href="https://github.com/day-by-day-calendar/feedback/wiki" target="_blank">Wiki</a>.
 
 You won’t be pulled in every direction any more. Manage your time with Day by Day app! The Day by Day team wishes you more interesting events and tasks!
