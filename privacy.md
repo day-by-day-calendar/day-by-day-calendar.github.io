@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy
 ---
 
-**Last updated: February 6, 2024**
+**Last updated: February 8, 2024**
 
 We take your privacy seriously. Please read the following to learn more about our privacy policy regarding the Day by Day Organizer app.
 

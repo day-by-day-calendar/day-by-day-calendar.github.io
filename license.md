@@ -6,7 +6,7 @@ permalink: /license
 
 # END-USER LICENSE AGREEMENT
 
-**Last updated: February 6, 2024**
+**Last updated: February 8, 2024**
 
 This End-User License Agreement (referred to as the "EULA") is a legally binding agreement between you, the Licensee, an individual customer or entity, and Anton Kosov, the author of Day by Day Calendar, the Software, which may include associated media, printed materials, and online or electronic documentation. This Agreement is a legally binding contract that includes terms that limit your legal rights and Licensors' liability to you, and shall govern all access to and use of the Software. You hereby agree, without limitation or alteration, to all the terms and conditions contained herein.
 
