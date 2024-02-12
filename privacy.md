@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy
 ---
 
-**Last updated: February 8, 2024**
+**Last updated: February 12, 2024**
 
 We take your privacy seriously. Please read the following to learn more about our privacy policy regarding the Day by Day Organizer app.
 
@@ -26,6 +26,8 @@ We may collect, store and use non-personal information. We may also combine pers
 # Use of other services
 
 Day by Day app uses Google Tasks API to sync with Google Tasks. You can find their privacy policy <a href="https://policies.google.com/privacy" target="_blank">here</a>.
+
+Day by Day's use and transfer to any other app of information received from Google APIs will adhere to <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.
 
 Firebase is used for collecting the app's crashes. Their privacy policy is <a href="https://www.firebase.com/terms/privacy-policy.html" target="_blank">here</a>.
 
