@@ -4,9 +4,9 @@ title: Privacy Policy
 permalink: /privacy
 ---
 
-**Last updated: February 12, 2024**
+**Last updated: February 16, 2024**
 
-We take your privacy seriously. Please read the following to learn more about our privacy policy regarding the Day by Day Organizer app.
+We take your privacy seriously. Please read the following to learn more about our privacy policy regarding the Day by Day Calendar app.
 
 This Privacy Policy gives you the information on how we collect, store and process data. In general we distinguish between personal and non-personal information. We do not sell or let any other third parties use your data. Please find the information on how we might process it below.
 
