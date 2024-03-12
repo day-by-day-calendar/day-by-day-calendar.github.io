@@ -42,3 +42,5 @@ This time management app is so simple that no further explanation is actually ne
 If you come upon any questions about the app, please read our <a href="https://github.com/day-by-day-calendar/feedback/wiki" target="_blank">Wiki</a>.
 
 You won’t be pulled in every direction any more. Manage your time with Day by Day app! The Day by Day team wishes you more interesting events and tasks!
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="daybydaycalendar" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
