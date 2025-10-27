@@ -4,6 +4,8 @@ title: License
 permalink: /license
 ---
 
+> **⚠️ IMPORTANT NOTICE: This app has been discontinued and is no longer maintained or available for download.**
+
 # END-USER LICENSE AGREEMENT
 
 **Last updated: February 16, 2024**

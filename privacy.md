@@ -4,7 +4,9 @@ title: Privacy Policy
 permalink: /privacy
 ---
 
-**Last updated: February 16, 2024**
+> **⚠️ IMPORTANT NOTICE: This app has been discontinued and is no longer maintained or available for download.**
+
+**Last updated: October 26, 2025**
 
 We take your privacy seriously. Please read the following to learn more about our privacy policy regarding the Day by Day Calendar app.
 

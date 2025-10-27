@@ -5,6 +5,8 @@
 layout: home
 ---
 
+> **⚠️ IMPORTANT NOTICE: This app has been discontinued and is no longer maintained or available for download.**
+
 It's that time of the year when organization-oriented Android users can reap the harvest of successful time management. Day by Day is a time management app designed to combine **Google Calendar** and **Google Tasks** in one package for Android phones and tablets.
 
 No more long paper to-do lists, forgotten birthdays and missed events. The app we‘ve developed can be used as a diary for household, a day planner and even a smart personal assistant.
@@ -34,10 +36,6 @@ Day by Day app has lots to offer:
 Day by Day allows you to create the events with fixed start/end time, as well as the events due to a certain time with the ability to postpone it. When creating an event, you are prompted to set a reminder which won't let you forget about your plans.
 
 This time management app is so simple that no further explanation is actually needed, just download and enjoy!
-
-<a href="https://play.google.com/store/apps/details?id=ru.infteh.organizer.trial" target="_blank">
-  <img src="./assets/google-play-badge.png" alt="Google Play" height="100em">
-</a>
 
 If you come upon any questions about the app, please read our <a href="https://github.com/day-by-day-calendar/feedback/wiki" target="_blank">Wiki</a>.
 
